@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	debugEmail = "magnus __at_ hagander.net"
+	debugEmail = ""
 	logSteps   bool
 	reg        *regexp.Regexp
 )

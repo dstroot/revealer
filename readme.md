@@ -1,6 +1,7 @@
 # Revealer
 
 [![Build Status](https://travis-ci.org/dstroot/revealer.svg?branch=master)](https://travis-ci.org/dstroot/revealer)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dstroot/revealer)](https://goreportcard.com/report/github.com/dstroot/revealer)
 [![GoDoc](https://godoc.org/github.com/dstroot/revealer?status.svg)](https://godoc.org/github.com/dstroot/revealer)
 
 A [go](http://www.golang.org) (or 'golang' for search engine friendliness) tool for "de-obfuscating" email addresses.  Pass in an obfuscated email in string format and it will attempt to figure out the valid email address.  

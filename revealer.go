@@ -1,4 +1,4 @@
-// Package revealer will "de-obfuscate" email addresses.
+// Package revealer will "de-obfuscate" email addresses. It has been tested on a fairly large corpus of obfuscated email addresses.
 //
 // See README.md for more info.
 package revealer

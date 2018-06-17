@@ -5,5 +5,6 @@ script:
     - go test -v ./...
 
 go:
-  - 1.10
-  - tip
+  # using strings.Builder so we need 10
+  - "1.10.x"
+  - master

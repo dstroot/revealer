@@ -1,6 +1,7 @@
 package revealer
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -293,6 +294,19 @@ func TestPadding(t *testing.T) {
 			t.Errorf("Expected Err: %s, Actual Err: %s", testErr.expectedErr, err)
 		}
 	}
+}
+
+//
+// example
+//
+
+func ExampleFix() {
+	result, err := Fix("test [at] example (dot) edu")
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(result)
+	// Output: test@example.edu
 }
 
 //

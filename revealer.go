@@ -407,6 +407,7 @@ func findTheAt(email string) string {
 		" atsign ", "@",
 		" isat ", "@",
 		" atmark ", "@",
+		" splat ", "@",
 		" atmk ", "@",
 		" shift2 ", "@",
 		" 4t ", "@",
@@ -631,6 +632,7 @@ func findTheDots(email string) string {
 		" period ", ".",
 		" dt ", ".",
 		" daught ", ".",
+		" spot ", ".",
 
 		// misc .
 		",", ".",

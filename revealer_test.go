@@ -145,6 +145,7 @@ func TestFixer(t *testing.T) {
 		{"crawford@saao.ac.za.", "crawford@saao.ac.za"},
 		{"denisowpavel [аt] yandex.ru", "denisowpavel@yandex.ru"},
 		// {"danielsh apache org", "danielsh apache org"},
+		{"test [splat] hotmail [spot] com", "test@hotmail.com"},
 	}
 
 	for _, test := range tests {

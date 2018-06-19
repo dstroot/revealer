@@ -6,11 +6,11 @@
 
 A [go](http://www.golang.org) (or 'golang' for search engine friendliness) tool for "de-obfuscating" email addresses.  Pass in an obfuscated email in string format and it will attempt to figure out the valid email address.  
 
-**NOTE:** Requires Go 1.10 or above due to use of "strings.Builder"
+**NOTE:** Requires Go 1.10 or above due to use of "strings.Builder".
 
 ## Examples
 
-See [the project documentation](https://godoc.org/github.com/dstroot/revealer) for examples of usage:
+See [the project documentation](https://godoc.org/github.com/dstroot/revealer) for examples of usage.
 
 ## Project Status & Versioning
 

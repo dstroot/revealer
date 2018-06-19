@@ -85,7 +85,7 @@ lint:
 
 
 .PHONY: release
-release: clean
+release:
 	@echo "Releasing: $(VERSION)"
 	git tag -a $(VERSION) -m "Release" || true
 	git push origin $(VERSION)
